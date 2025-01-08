@@ -9,7 +9,7 @@ export default function App() {
       {/* <Text style={style.titleText}>Tìm hiểu về Styling</Text>
       <Styling />  */}
 
-      <Flexbox />
+      {/* <Flexbox /> */}
     </View>
   );
 }

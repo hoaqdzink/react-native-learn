@@ -47,3 +47,27 @@
 | `onEndReached`    | `FlatList`, `ScrollView`, `SectionList` | Xử lý khi người dùng cuộn đến cuối danh sách.                          |
 
 ---
+
+
+# **React Native Navigation**
+
+## **1. Giới thiệu**
+**Navigation** là hệ thống điều hướng giữa các màn hình trong ứng dụng React Native. Dưới đây là các dạng điều hướng phổ biến:
+
+---
+
+## **2. Các dạng Navigation**
+
+| **Dạng Navigation** | **Ý nghĩa**                                                   | **Sử dụng**                                    |
+|---------------------|---------------------------------------------------------------|------------------------------------------------|
+| **Stack Navigation** | Điều hướng dạng ngăn xếp (forward/backward như trình duyệt).   | `createStackNavigator()`                       |
+| **Tab Navigation**   | Điều hướng theo tab (chuyển đổi giữa các màn hình chính).      | `createBottomTabNavigator()`, `createMaterialTopTabNavigator()` |
+| **Drawer Navigation**| Điều hướng bằng menu dạng ngăn kéo từ cạnh màn hình.           | `createDrawerNavigator()`                      |
+| **Nested Navigation**| Kết hợp nhiều dạng điều hướng trong một ứng dụng (lồng nhau).  | Kết hợp Stack, Tab, và Drawer.                 |
+
+---
+
+## **3. Cài đặt React Navigation**
+Chạy lệnh để cài đặt thư viện:
+```bash
+npm install @react-navigation/native @react-navigation/stack react-native-gesture-handler react-native-screens react-native-safe-area-context react-native-vector-icons react-native-animated
