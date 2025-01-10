@@ -67,7 +67,4 @@
 
 ---
 
-## **3. Cài đặt React Navigation**
-Chạy lệnh để cài đặt thư viện:
-```bash
-npm install @react-navigation/native @react-navigation/stack react-native-gesture-handler react-native-screens react-native-safe-area-context react-native-vector-icons react-native-animated
+
